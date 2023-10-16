@@ -23,7 +23,7 @@
 - **Käyttötapauksen nimi:** Valita äänestyksen ja katsoa äänestystilanne
 - **Käyttäjät:** Käyttäjä
 - **Laukaisija:** Käyttäjä haluaa nähdä tietyn äänestyksen äänestystilanteen.
-- **Esiehto:** Käyttäjä painaa "katso tilanne painiketta" 
+- **Esiehto:** Käyttäjä painaa katso tilanne painiketta.
 - **Jälkiehto:** Käyttäjä näkee valitun äänestyksen äänestystilanteen.
 - **Käyttötapauksen kulku:** 
   1. Järjestelmä näyttää äänestystilanteen.
@@ -34,12 +34,13 @@
 - **Käyttötapauksen nimi:** Äänestä valitsemaansa äänestystä
 - **Käyttäjät:** Käyttäjä
 - **Laukaisija:** Käyttäjä haluaa äänestää valitsemaansa äänestystä.
-- **Esiehto:** Käyttäjä on valinnut äänestyksen.
-- **Jälkiehto:** 
+- **Esiehto:** Käyttäjä on valinnut äänestyksen ja vaihtoehdon.
+- **Jälkiehto:** Järjestelmä rekisteröi äänen ja käyttäjä näkee äänestyksen äänestystilanteen.
 - **Käyttötapauksen kulku:** 
   1. Käyttäjä valitsee vaihtoehdon äänestyksessä.
   2. Järjestelmä rekisteröi äänen.
-- **Poikkeuksellinen toiminta:** Käyttäjä on jo äänestänyt.
+- **Poikkeuksellinen toiminta:**
+  1. Käyttäjä on jo äänestänyt eikä voi äänestää samaa äänestystä uudelleen.
 
 ## Ylläpitäjä
 
@@ -60,7 +61,7 @@
 - **Käyttötapauksen nimi:** Valita äänestyksen ja katsoa äänestystilanne
 - **Käyttäjät:** Ylläpitäjä
 - **Laukaisija:** Ylläpitäjä haluaa nähdä tietyn äänestyksen äänestystilanteen.
-- **Esiehto:** Ylläpitäjä painaa "katso tilanne painiketta" 
+- **Esiehto:** Ylläpitäjä painaa katso tilanne painiketta. 
 - **Jälkiehto:** Ylläpitäjä näkee valitun äänestyksen äänestystilanteen.
 - **Käyttötapauksen kulku:** 
   1. Järjestelmä näyttää äänestystilanteen.
@@ -71,12 +72,13 @@
 - **Käyttötapauksen nimi:** Äänestä valitsemaansa äänestystä
 - **Käyttäjät:** Ylläpitäjä
 - **Laukaisija:** Ylläpitäjä haluaa äänestää valitsemaansa äänestystä.
-- **Esiehto:** Ylläpitäjä on valinnut äänestyksen.
-- **Jälkiehto:** 
+- **Esiehto:** Ylläpitäjä on valinnut äänestyksen ja vaihtoehdon.
+- **Jälkiehto:** Järjestelmä rekisteröi äänen ja ylläpitäjä näkee äänestyksen äänestystilanteen.
 - **Käyttötapauksen kulku:** 
   1. Ylläpitäjä valitsee vaihtoehdon äänestyksessä.
   2. Järjestelmä rekisteröi äänen.
-- **Poikkeuksellinen toiminta:** Ylläpitäjä on jo äänestänyt.
+- **Poikkeuksellinen toiminta:** 
+  1. Ylläpitäjä on jo äänestänyt eikä voi äänestää samaa äänestystä uudelleen.
 
 ### 7. Käyttötapaus: Tee uusi äänestys
 
@@ -101,7 +103,7 @@
 - **Jälkiehto:** Äänestys on poistettu.
 - **Käyttötapauksen kulku:** 
   1. Ylläpitäjä valitsee äänestyksen listasta.
-  2. Ylläpitäjä valitsee "Poista äänestys" -vaihtoehdon.
+  2. Ylläpitäjä valitsee "Poista äänestys" vaihtoehdon.
   3. Järjestelmä poistaa valitun äänestyksen.
 - **Poikkeuksellinen toiminta:** 
 
