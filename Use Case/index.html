@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Äänestyssimulaattori</title>
+</head>
+<body>
+    <h1>Äänestyssimulaattori</h1>
+    <div class="adminContainer" id="adminContainer" hidden>
+        <p>Rooli: Ylläpitäjä</p>
+        <button type="button" id="newVote">Luo uusi äänestys</button>
+        <button type="button" id="logout">Kirjaudu ulos</button>
+    </div>
+    <div class="loginContainer" id="loginContainer">
+        <label>Käyttäjänimi</label>
+        <br>
+        <input type="text" id="user"></input>
+        <br>
+        <label>Salasana</label>
+        <br>
+        <input type="password" id="pass"></input>
+        <br>
+        <button type="button" style="border-radius: 10px;" id="loginBtn">Kirjaudu</button>
+        <label  onclick="alert('käyttis: admin\nsalis: 123456')" ><a >Vihje</a></label>
+    </div>
+    <div class="pollsContainer">
+        <!-- USERNAME: admin
+            PASSWORD: 123456
+        -->
+    
+</div>
+</body>
+<script src="script.js"></script>
+</html>

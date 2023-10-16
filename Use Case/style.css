@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    
+}
+label{
+    font-size: 13px;
+    
+    
+    
+}
+.loginContainer, .adminContainer{
+    text-align: center;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    border-radius: 20px;
+    border-style: solid;
+    margin-left:auto;
+    margin-right:auto;
+    width: 20%;
+    margin-bottom: 80px;
+    
+}
+.polls{
+    text-align: center;
+    border-style: solid;
+    margin-left:auto;
+    margin-right:auto;
+    width: 20%;
+    height: auto;
+    border-color: aqua;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+input{
+    margin-bottom: 6px;
+}
+
+.pollButton{
+    align-items: center;
+    text-align: center;
+    margin-right: 3px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    
+}
+.pollsText{
+    
+   
+    font-size: 15px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
